@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+}
+#signup{
+    width: 45%;
+    height: 90vh;
+    background-color:rgba(253, 255, 199, 0.615);
+    position: relative;   
+    left: 200px; 
+}
+.inputbox{
+    width: 80%;
+}
+input{
+    width: 40%;
+   height: 16px;
+}
+#dobheading{
+    font-size: 24px;
+}
+#selecttags{
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
+    padding-left: 20px;
+}
+#genderalign{
+    display: flex;
+    flex-direction: row;
+}
+#g{
+    font-size: 24px;
+}
+label{
+    font-size: 12px;
+}
+#signupbutton{
+    position: absolute;
+    left: 100px;
+    bottom: 150px;
+    height: 28px;
+    width: 30%;  
+    font-size: 20px; 
+    border-radius: 20px;
+}
+h1{
+    position: absolute;
+    left: 60px;
+    top: 180px;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
